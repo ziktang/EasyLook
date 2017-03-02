@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">氢读</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_gan_huo_main">GanHuoMainActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="fab_behavior">com.example.tctctc.easylook.CustomView.ScrollAwareFABBehavior</string>
+</resources>

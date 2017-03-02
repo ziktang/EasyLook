@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_large_pic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/picture_bg"
+    tools:context="com.example.tctctc.easylook.ganhuojizhongying.LargePicActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/picture_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.example.tctctc.easylook.CustomView.AjustImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:transitionName="mzImg"
+        />
+    </LinearLayout>
+</LinearLayout>

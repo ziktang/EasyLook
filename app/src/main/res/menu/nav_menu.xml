@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+    >
+    <group>
+        <item android:title="首页"
+              android:id="@+id/head"
+              android:icon="@drawable/gh"/>
+        <item
+            android:id="@+id/sea_gh"
+            android:icon="@drawable/sea"
+            android:title="搜索干货"/>
+        <item
+            android:id="@+id/person_like"
+            android:icon="@drawable/like"
+            android:title="我的收藏"/>
+    </group>
+    <item android:title="more">
+        <menu>
+            <item
+                android:id="@+id/set_up"
+                android:icon="@drawable/setup"
+                android:title="设置"/>
+
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/share"
+                android:title="分享"/>
+
+            <item
+                android:id="@+id/Feedback"
+                android:icon="@drawable/feedback"
+                android:title="意见反馈"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ghTab">
+        <item>每日阅读</item>
+        <item>彩蛋</item>
+        <item>推荐</item>
+        <item>android</item>
+        <item>ios</item>
+        <item>休息视频</item>
+        <item>拓展资源</item>
+        <item>前端</item>
+        <item>福利</item>
+    </string-array>
+</resources>
